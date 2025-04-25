@@ -1,0 +1,2614 @@
+* {
+  background-color: #f8f8f800;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif !important;
+  height: auto;
+}
+
+#navitems:hover{
+  text-decoration: underline;
+  color: #008d44;
+  font-weight: 700;
+}
+
+
+.pagesfooter{
+  width: 100%;
+  height: auto;
+  padding: 40px;
+
+}
+
+.pagesfooter1{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+
+
+.pagesfooter2 h6{
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.pagesfooter4{
+  display: flex;
+  justify-content: stretch;
+  gap: 40px;
+}
+
+.pagesfooter3 p a{
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+}
+
+.pagesfooter3 p a:hover{
+  font-size: 15px;
+  text-decoration: none;
+  color: #00984a;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+}
+
+.pagesfooter5{
+  width: 100%;
+  height: auto;
+  padding: 40px;
+  border-top: 1px solid rgba(0, 0, 0, 0.262);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.262);
+}
+
+.pagesnewfooter{
+  width: 100%;
+  height: auto;
+  padding: 40px;
+}
+
+.pagesnewfooter1{
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.262);
+}
+
+
+.pagesnewfooter2{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.pagesnewfooter3{
+  width: 33%;
+}
+
+.pagesnewfooter3 h6{
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.pagesnewfooter4 {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px; 
+  align-items: center;
+}
+
+
+.pagesnewfooter5 {
+  padding: 5px;
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+#appimages{
+  margin-left: -240px;
+}
+
+.pagesnewfooter5 img{
+  width: 150%;
+  height: 120%;
+}
+
+#linkimages img{
+  border-radius: 50px;
+  background-color:   #ffffff;
+  color: #ffffff;
+  height: 35px;
+  width: 35px;
+  border: 1px solid #ffffff !important;
+  font-size: 18px;
+  margin-left: -100px;
+}
+
+
+#footeremail{
+  width: 360px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 0 5px 0 #00000030 !important;
+  border: 0;
+}
+
+#footersubmitbutton{
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 0 #00000030 !important;
+  border: 1px solid #00984a;
+  background: #00984a;
+  color: #fff !important;
+  font-weight: 500;
+}
+
+.aboutus{
+  width: 100%;
+  padding: 120px;
+  height: 600px;
+}
+
+.aboutus1{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.aboutus2{
+  width: 50%;
+}
+
+.aboutus2 img{
+  width: 100%;
+}
+
+.aboutus h4{
+  font-weight: 700;
+  font-size: 27px;
+  color: #00984a;
+}
+
+.aboutus3{
+  width: 100%;
+  padding: 30px;
+  height: auto;
+}
+
+.aboutus4{
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutus5{
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#aboutus5{
+  width: 30%;
+}
+
+.aboutus6{
+  display: flex;
+  width: 100%;
+  padding: 4px;
+  gap: 20px;
+}
+
+.aboutus7{
+  width: 50%;
+  display: flex;
+  gap: 2px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.aboutus7 h1{
+  font-size: 30px;
+  font-weight: 700;
+}
+.aboutus8{
+  width: 100%;
+}
+
+.results {
+  margin-top: 10px;
+}
+
+.results div {
+  padding: 8px;
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.results div:hover {
+  background-color: #f0f0f0;
+}
+
+#BreadcrumbHome a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.541);
+}
+
+
+
+#whatsapp p {
+  border-bottom: 4px solid black;
+  border-bottom-style: dotted;
+}
+
+.ratelist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(
+    to right,
+    #e0f7fa,         /* light cyan */
+    #b2ebf2,         /* cyan lighten-3 */
+    #80deea,         /* cyan lighten-2 */
+    #26c6da,         /* cyan */
+    #00acc1,         /* cyan darken-1 */
+    #00796b          /* teal darken-2 */
+  );
+  color: #004d40; /* dark teal for contrast text if needed */
+}
+
+.ratelist h1 {
+  font-size: 50px;
+  color: #ffffff; 
+  font-family: 'Quicksand', sans-serif;
+  text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.15);}
+
+.pptitems{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5PX;
+}
+
+/* Search Bar Styling */
+
+#SearchBar {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+table th,
+table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table th {
+  background-color: #f2f2f2;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.ratelistsearchbar {
+  padding: 12px;
+}
+
+.cards {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  text-align: center;
+  padding: 12px;
+  gap: 10px;
+}
+
+.cards1 {
+  width: 90%;
+  height: 80%;
+  background-color: rgba(14, 168, 153, 0.322);
+  border-radius: 10px;
+  padding: 12px;
+}
+.cards1 img {
+  border-radius: 10%;
+}
+.cards1 p {
+  z-index: 999;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#hbc img {
+  width: 300px;
+  height: 180px;
+}
+
+#hbc {
+  background-color: rgba(14, 168, 152, 0.818);
+}
+
+#paginationControls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#hbc1 img {
+  width: 300px;
+  height: 180px;
+}
+
+#hbc1 {
+  background-color: rgba(14, 168, 152, 0.818);
+}
+
+#maincontent {
+  width: 100%;
+  padding: 40px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.maincontent {
+  width: 100%;
+  padding: 40px;
+  gap: 20px;
+}
+
+#menhealth {
+  width: 23%;
+  height: 350px;
+  box-shadow: 1px 1px 3px 3px rgba(128, 128, 128, 0.275);
+}
+
+#populartest {
+  width: 33%;
+  box-shadow: 1px 1px 3px 3px rgba(128, 128, 128, 0.275);
+}
+
+#tbhc {
+  width: 200px;
+  height: 190px;
+  border-top: 5px solid green;
+  box-shadow: 1px 1px 3px 3px rgba(128, 128, 128, 0.189);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+#tbhc:hover {
+  width: 200px;
+  height: 190px;
+  color: #000000;
+  border-top: 5px solid green;
+  box-shadow: 1px 1px 3px 3px rgba(128, 128, 128, 0.189);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  transform: translateY(-10px);
+  transition: 1s;
+}
+
+#tbhc h5{
+  font-size: 16px;
+  font-weight: 600px;
+}
+
+
+#tbhc img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgba(128, 128, 128, 0.26);
+}
+#menhealth img {
+  width: 100%;
+  height: 190px;
+}
+
+#mainlogo {
+  width: 50px;
+  height: 50px;
+  border-radius: 70%;
+}
+
+#brand {
+  color: rgb(25, 95, 129);
+  font-weight: bold;
+}
+.truehealthpackages {
+  padding: 20px;
+}
+.truehealthpackages p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#brand1 {
+  padding: 12px;
+  border: 2px solid rgb(25, 95, 129);
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px rgba(25, 94, 129, 0.384);
+}
+
+#maleplan span {
+  background-color: rgba(128, 128, 128, 0.507);
+  border-radius: 5px;
+}
+
+#populartest img {
+  padding: 12px;
+  width: 70px;
+  height: 70px;
+}
+
+#btntruhealth:hover {
+  background-color: #00984a;
+  color: rgb(255, 255, 255);
+  border-color: #00984a;
+}
+
+#btnpopulartest:hover {
+  background-color: rgba(5, 87, 239, 0.844);
+  color: rgb(255, 255, 255);
+  border-color: rgba(5, 87, 239, 0.844);
+}
+
+#tbhr {
+  width: 100%;
+  padding: 50px;
+}
+
+.huzefadiagnostic {
+  width: 100%;
+  height: 500px;
+  background: linear-gradient(
+    white,
+    rgba(144, 238, 144, 0.493),
+    rgba(0, 128, 0, 0.197)
+  );
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px;
+}
+
+.HuzefaDiagnostic {
+  width: 50%;
+}
+
+.HuzefaDiagnostic h5{
+  font-weight: 700;
+}
+
+
+.Huzefadiagnostic1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#yrsofexperience {
+  width: 200px;
+}
+
+.Huzefadiagnostic2 {
+  width: 200px;
+  height: 220px;
+  border-top: 5px solid green;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Huzefadiagnostic2 img {
+  width: 100px;
+  height: 100px;
+}
+
+.Huzefadiagnostic2 p {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.ppt {
+  padding: 40px;
+  height: 300px;
+}
+
+.ppt p a{
+  text-decoration: none;
+  border-bottom: 1px solid #00984a;
+  color: #00984a;
+}
+
+.ppppppt{
+  padding: 40px;
+}
+
+.ppppppt h5{
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.ppt1
+{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.262);
+}
+
+.ppt h5{
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.indexlabels {
+  width: 100%;
+  height: auto;
+  padding: 40px;
+
+}
+
+
+.indexlabels1 {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+}
+
+
+.yol {
+  width: 25%;
+  height: 80px;
+  background-color: #ffffff;
+  box-shadow: 0 0 5px 0 #00000030 !important;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  gap: 15px;
+}
+
+.yol p {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #ffffff;
+}
+
+.yol img {
+  width: 50px;
+  height: 70px;
+  background-color: #ffffff;
+}
+
+
+.bato {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  width: 400px;
+  height: 400px;
+  border: 1px solid rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  gap: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px 3px rgba(115, 112, 112, 0.068);
+}
+
+.indexbanner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.indexbanner input {
+  padding: 8px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.testResult {
+  display: none;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+
+.result-item {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.result-item:hover {
+  background-color: #e0e0e0;
+}
+
+/* cbc.html */
+
+.hide {
+  display: none;
+}
+
+.cbc {
+  display: flex;
+  padding: 12px;
+  gap: 10px;
+  height: 890px;
+  /* overflow: auto; */
+}
+
+.cbcdetails {
+  width: 300px;
+  height: 300px;
+  box-shadow: 1px 1px 3px 3px rgba(115, 112, 112, 0.068);
+  border-radius: 5px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 12px;
+}
+
+.CBC {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.174);
+  display: flex;
+  justify-content: start;
+  padding: 12px;
+}
+
+.cbc2 {
+  height: 872px;
+  overflow: auto;
+  padding: 12px;
+}
+
+.cbc2::-webkit-scrollbar {
+  display: none;
+}
+
+.CBC:hover {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.174);
+  display: flex;
+  justify-content: start;
+  padding: 12px;
+  font-weight: bold;
+}
+
+.CBC:hover::after {
+  margin-left: 90px;
+  content: ">";
+  color: black;
+}
+
+.cbc li a {
+  text-decoration: none;
+  color: black;
+  font-family: Poppins, sans-serif !important;
+}
+
+.CBCTest {
+  display: flex;
+  flex-direction: column;
+  height: 185px;
+  justify-content: start;
+  gap: 30px;
+  width: 800px;
+  box-shadow: 1px 1px 3px 3px rgba(115, 112, 112, 0.068);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.stb {
+  width: 250px;
+  height: 60px;
+  border-radius: 5px;
+  display: flex;
+  padding: 5px;
+  gap: 15px;
+}
+
+.stb p {
+  font-size: 18px;
+  font-family: Poppins, sans-serif !important;
+}
+
+#std1 {
+  border: 1px solid palevioletred;
+}
+
+#std2 {
+  border: 1px solid yellow;
+}
+
+#std3 {
+  border: 1px solid lightblue;
+}
+
+.cbcstructure{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cbcStructure{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+#std4 {
+  box-shadow: 1px 1px 3px 3px rgba(115, 112, 112, 0.068);
+}
+
+#std5 {
+  box-shadow: 1px 1px 3px 3px rgba(115, 112, 112, 0.068);
+}
+
+#std6 {
+  box-shadow: 1px 1px 3px 3px rgba(115, 112, 112, 0.068);
+}
+
+#std4 p {
+  font-size: 15px;
+}
+
+#std5 p {
+  font-size: 15px;
+}
+
+#std6 p {
+  font-size: 15px;
+}
+
+.cbcprice {
+  width: 100%;
+  max-width: 350px;
+  height: 230px;
+  box-shadow: 1px 1px 3px 3px rgba(47, 255, 0, 0.088);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+  border-radius: 5px;
+  border: 1px solid rgb(21, 74, 9);
+}
+
+.cbcprice:hover {
+  width: 100%;
+  max-width: 350px;
+  height: 230px;
+  box-shadow: 1px 1px 3px 3px rgba(47, 255, 0, 0.088);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+  border-radius: 5px;
+  border: 1px solid rgb(21, 74, 9);
+  transform: translateY(-15px);
+  transition: all 0.3s ease-in-out;
+}
+
+.cbcprice p {
+  color: green;
+  font-weight: bold;
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+}
+
+.cbcprice h4 {
+  font-weight: bold;
+  font-family: Poppins, sans-serif;
+  font-size: 21px;
+}
+
+.cbcprice button {
+  width: 70%;
+  height: auto;
+  background-color: rgb(0, 191, 255);
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  display: inline-block;
+}
+
+.cbcprice button a {
+  text-decoration: none;
+  color: white;
+}
+
+.cbcguideimg {
+  width: 300px;
+  padding: 12px;
+  display: flex;
+  gap: 20px;
+}
+
+.cbchomevisit {
+  width: 300px;
+}
+
+.cbchomevisit img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.cbcbrief {
+  width: 800px;
+  box-shadow: 1px 1px 3px 3px rgba(115, 112, 112, 0.068);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.cbcbrief table td {
+  font-size: 15px;
+  padding: 12px;
+}
+
+#cbcdata {
+  font-weight: bold;
+  width: 150px;
+}
+
+.bahvn {
+  width: 350px;
+  height: 201px;
+  box-shadow: 1px 1px 3px 3px rgba(115, 112, 112, 0.068);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.bahvn h6 {
+  width: 100%;
+  border-radius: 5px;
+  background-color: #ffefa1;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bahvn button {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 128, 0, 0.721);
+  background-color: rgba(0, 128, 0, 0.721);
+  color: white;
+  border: none;
+}
+
+
+.bahvn button:hover {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 128, 0, 0.721);
+  background-color: rgb(255, 255, 255);
+  color: rgba(0, 128, 0, 0.721);
+}
+
+
+.mfbt {
+  width: 350px;
+  height: 201px;
+  box-shadow: 1px 1px 3px 3px rgba(115, 112, 112, 0.068);
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  border-radius: 5px;
+}
+
+.mfbt p {
+  border-bottom: 2px solid rgba(128, 128, 128, 0.433);
+}
+
+.mfbt1 {
+  width: 350px;
+  height: 201px;
+  display: flex;
+  flex-direction: column;
+  overflow: inherit;
+  padding: 12px;
+}
+
+.mfbt1::-webkit-scrollbar {
+  display: none;
+}
+.mfbt h6 {
+  width: 100%;
+  background-color: #ffefa1;
+  border-radius: 5px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mfbt1 p a {
+  text-decoration: none;
+  color: black;
+}
+
+.cbcto {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 1px 1px 3px 3px rgba(115, 112, 112, 0.068);
+}
+
+.cbcto ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+#toggleButton {
+  border: 1px solid #00984a;
+  width: 120px;
+  text-align: center;
+  background-color: #fff;
+  height: 30px;
+  line-height: 28px;
+  border-radius: 4px;
+  color: #00984a;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#toggleButton:hover {
+  border: 1px solid #00984a;
+  width: 120px;
+  text-align: center;
+  background-color: #00984a;
+  height: 30px;
+  line-height: 28px;
+  border-radius: 4px;
+  color: #fff;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.cbctp {
+  width: 800px;
+  height: 250px;
+  box-shadow: 1px 1px 3px 3px rgba(115, 112, 112, 0.068);
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.faq {
+  width: 800px;
+  min-height: 400px; /* Set a minimum height, but allow dynamic expansion */
+  box-shadow: 1px 1px 3px 3px rgba(115, 112, 112, 0.068);
+  padding: 12px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out; /* Smooth expansion effect */
+  overflow: hidden;
+}
+
+.accordion-collapse.show .accordion-body {
+  border: 1px solid rgb(21, 74, 9);
+  box-shadow: 1px 1px 3px 3px rgba(47, 255, 0, 0.088);
+  border-radius: 5px; /* Optional: Rounds the corners */
+}
+
+#bottomnavbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#BottomNavbar {
+  background-color: #31aa4d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+  height: 60px;
+}
+
+#bottomnavbar ul li p {
+  color: white;
+  font-weight: bold;
+}
+
+
+.ringimage {
+  position: relative;
+  display: inline-block;
+}
+
+.ringimage::before {
+  content: "";
+  position: absolute;
+  top: -6px;
+  left: 10px;
+  width: 120px;
+  height: 120px;
+  border: 4px solid transparent;
+  border-top: 4px solid rgb(10, 168, 47); /* change color as you like */
+  border-bottom: 4px solid rgb(10, 52, 168); /* change color as you like */
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+  z-index: 0;
+}
+
+.ringimage img {
+  position: relative;
+  z-index: 1;
+  top: -20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 70%;
+  cursor: pointer;
+}
+
+/* Animation keyframes */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#btnno button {
+  width: 230px;
+  border-radius: 5px;
+  height: 30px;
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+#btnno1 button {
+  width: 230px;
+  border-radius: 5px;
+  height: 30px;
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+/* heart test.html */
+.hearttest {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 10px;
+  width: 100%;
+  height: 320px;
+}
+
+.hearttest1 {
+  width: 90%;
+  height: 250px;
+  box-shadow: 1px 1px 3px 3px rgba(115, 112, 112, 0.068);
+  border-radius: 5px;
+  gap: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 12px;
+}
+
+.hearttest2 {
+  width: 300px;
+  height: 200px;
+  border: 1px solid #008d44;
+  box-shadow: 0px 0px 10px 1px #e3e2e2;
+  border-radius: 10px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+
+.hearttesttype {
+  width: 100%;
+  height: 1060px;
+  border-radius: 10px;
+  gap: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hearttesttype1 {
+  width: 90%;
+  height: 240px;
+  border-radius: 10px;
+  gap: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.Testtypes {
+  width: 25%;
+  height: 240px;
+  box-shadow: 0px 0px 10px 1px #e3e2e2;
+  border-radius: 10px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#testtypebutton {
+  width: 100%;
+  height: 30px;
+  color: #0cb6e1;
+  border: 1px solid #0cb6e1;
+  border-radius: 5px;
+  font-weight: 600;
+  background-color: white;
+}
+
+#testtypebutton:hover {
+  width: 100%;
+  height: 30px;
+  color: #ffffff;
+  background-color: #0cb6e1;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+#testtypespara1 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #00984a;
+}
+
+#testtypespara3 {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.692);
+}
+
+.hearttestdescription {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 10px;
+  width: 100%;
+  height: 920px;
+}
+
+.hearttestdescription1 {
+  width: 90%;
+  height: 920px;
+  box-shadow: 1px 1px 3px 3px rgba(115, 112, 112, 0.068);
+  border-radius: 5px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 12px;
+}
+
+.HeartTestsPrescribed h5 {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.HeartTestsImportant h5 {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.HeartTestsPerformed h5 {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.HeartTestsReports h5 {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.HeartTestsPrescribed p {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.HeartTestsImportant p {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.HeartTestsPerformed p {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.HeartTestsReports p {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.FrequentlyAskedQuestions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.FrequentlyAskedQuestions1 {
+  width: 90%;
+  height: auto;
+  box-shadow: 1px 1px 3px 3px rgba(115, 112, 112, 0.068);
+  border-radius: 5px;
+  gap: 20px;
+  padding: 12px;
+}
+
+/* heart test.html */
+
+/* liver test.html */
+
+.livertest {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 10px;
+  width: 100%;
+  height: 600px;
+}
+
+.livertest1 {
+  width: 90%;
+  height: 580px;
+  box-shadow: 1px 1px 3px 3px rgba(115, 112, 112, 0.068);
+  border-radius: 5px;
+  gap: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 12px;
+}
+
+.livertest2 {
+  width: 300px;
+  height: 200px;
+  border: 1px solid #008d44;
+  box-shadow: 0px 0px 10px 1px #e3e2e2;
+  border-radius: 10px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+
+.livertesttype {
+  width: 100%;
+  height: 800px;
+  border-radius: 10px;
+  gap: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.livertesttype1 {
+  width: 90%;
+  height: 240px;
+  border-radius: 10px;
+  gap: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.LiverTesttypes {
+  width: 25%;
+  height: 230px;
+  box-shadow: 0px 0px 10px 1px #e3e2e2;
+  border-radius: 10px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.LiverTestdescription {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 10px;
+  width: 100%;
+  height: 1050px;
+}
+
+.LiverTestdescription1 {
+  width: 90%;
+  height: auto;
+  box-shadow: 1px 1px 3px 3px rgba(115, 112, 112, 0.068);
+  border-radius: 5px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 12px;
+}
+
+.LiverTestPrescribed h5 {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.LiverTestImportant h5 {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.LiverTestPerformed h5 {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.LiverTestReports h5 {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.LiverTestPrescribed p {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.LiverTestImportant p {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.LiverTestPerformed p {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.LiverTestReports p {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.LiverTestPrescribed,
+.LiverTestImportant,
+.LiverTestPerformed,
+.LiverTestReports {
+  width: 100%; /* Makes sure they take full space */
+}
+
+.FrequentlyAskedQuestions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.FrequentlyAskedQuestions1 {
+  width: 90%;
+  height: auto;
+  box-shadow: 1px 1px 3px 3px rgba(115, 112, 112, 0.068);
+  border-radius: 5px;
+  gap: 20px;
+  padding: 12px;
+}
+
+.FrequentlyAskedQuestions1 h5{
+  font-weight: 700;
+}
+
+/* liver test.html */
+
+/* kidney test.html */
+
+.Kidneytest {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 10px;
+  width: 100%;
+  height: 320px;
+}
+
+.Kidneytest1 {
+  width: 90%;
+  height: 250px;
+  box-shadow: 1px 1px 3px 3px rgba(115, 112, 112, 0.068);
+  border-radius: 5px;
+  gap: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 12px;
+}
+
+.Kidneytest2 {
+  width: 300px;
+  height: 200px;
+  border: 1px solid #008d44;
+  box-shadow: 0px 0px 10px 1px #e3e2e2;
+  border-radius: 10px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+
+.Kidneytesttype {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  gap: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Kidneytesttype1 {
+  width: 90%;
+  height: 240px;
+  border-radius: 10px;
+  gap: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Kidneytestdescription {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.Kidneytestdescription1 {
+  width: 90%;
+  height: auto;
+  box-shadow: 1px 1px 3px 3px rgba(115, 112, 112, 0.068);
+  border-radius: 5px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 12px;
+}
+
+.KidneyTestsPrescribed h5 {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.KidneyTestsImportant h5 {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.KidneyTestsPerformed h5 {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.KidneyTestsReports h5 {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.KidneyTestsPrescribed,
+.KidneyTestsImportant,
+.KidneyTestsPerformed,
+.KidneyTestsReports {
+  width: 100%; /* Makes sure they take full space */
+}
+
+.KidneyTestsPrescribed p {
+  font-size: 14px;
+letter-spacing: 0.5px;
+}
+
+.KidneyTestsImportant p {
+  font-size: 14px;
+letter-spacing: 0.5px;
+}
+
+.KidneyTestsPerformed p {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.KidneyTestsReports p {
+  font-size: 14px;
+  letter-spacing: 0.5px; 
+}
+
+/* kidney test.html */
+
+
+.hdfooter{
+  background-color: #f2f2f2;
+}
+/* thyroid test html */
+
+.thyroidtest {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 10px;
+  width: 100%;
+  height: auto;
+  margin-top: 0;  
+}
+
+.thyroidtest1 {
+  width: 90%;
+  height: auto;
+  box-shadow: 1px 1px 3px 3px rgba(115, 112, 112, 0.068);
+  border-radius: 5px;
+  gap: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 12px;
+}
+
+.thyroidtest2 {
+  width: 300px;
+  height: 200px;
+  border: 1px solid #008d44;
+  box-shadow: 0px 0px 10px 1px #e3e2e2;
+  border-radius: 10px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+
+.thyroidtesttype {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  gap: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.thyroidtesttype1 {
+  width: 90%;
+  height: 240px;
+  border-radius: 10px;
+  gap: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: start;
+  margin-left: 50px;
+}
+
+.ThyroidTesttypes {
+  width: 23%;
+  height: 230px;
+  box-shadow: 0px 0px 10px 1px #e3e2e2;
+  border-radius: 10px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.thyroidtestdescription {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.thyroidtestdescription1 {
+  width: 90%;
+  height: auto;
+  box-shadow: 1px 1px 3px 3px rgba(115, 112, 112, 0.068);
+  border-radius: 5px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 12px;
+}
+
+.thyroidtestPrescribed h5 {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.thyroidtestImportant h5 {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.thyroidtestPerformed h5 {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.thyroidtestReports h5 {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.thyroidtestPrescribed p {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.thyroidtestImportant p {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.thyroidtestPerformed p {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.thyroidtestReports p {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.thyroidtestPrescribed,
+.thyroidtestImportant,
+.thyroidtestPerformed,
+.thyroidtestReports {
+  width: 100%; /* Makes sure they take full space */
+}
+
+/* thyroid test html */
+
+/* bone&joint test html */
+
+.boneandjointtest {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.boneandjointtest1 {
+  width: 90%;
+  height: auto;
+  box-shadow: 1px 1px 3px 3px rgba(115, 112, 112, 0.068);
+  border-radius: 5px;
+  gap: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 12px;
+}
+
+.boneandjointtest2 {
+  width: 300px;
+  height: 200px;
+  border: 1px solid #008d44;
+  box-shadow: 0px 0px 10px 1px #e3e2e2;
+  border-radius: 10px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+
+.boneandjointtesttype {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  gap: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.boneandjointtesttype1 {
+  width: 90%;
+  height: 240px;
+  border-radius: 10px;
+  gap: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.boneandjointtesttypes {
+  width: 25%;
+  height: 230px;
+  box-shadow: 0px 0px 10px 1px #e3e2e2;
+  border-radius: 10px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.boneandjointtestdescription {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.boneandjointtestdescription1 {
+  width: 90%;
+  height: auto;
+  box-shadow: 1px 1px 3px 3px rgba(115, 112, 112, 0.068);
+  border-radius: 5px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 12px;
+}
+
+.boneandjointtestPrescribed h5 {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.boneandjointtestImportant h5 {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.boneandjointtestPerformed h5 {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.boneandjointtestReports h5 {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.boneandjointtestPrescribed p {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.boneandjointtestImportant p {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.boneandjointtestPerformed p {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.boneandjointtestReports p {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.boneandjointtestPrescribed,
+.boneandjointtestImportant,
+.boneandjointtestPerformed,
+.boneandjointtestReports {
+  width: 100%; /* Makes sure they take full space */
+}
+
+/* bone&joint test html */
+
+
+
+/* TruHealth Vital */
+
+.thvp{
+  width: 100%;
+  padding: 30px;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 1px 1px 3px 3px rgba(115, 112, 112, 0.068);
+}
+
+.thvp h3{
+  font-size: 17px !important;
+    font-weight: 700 !important;
+    line-height: 20px !important;
+
+}
+.thvp0{
+  display: flex;
+  justify-content: center;
+ align-items: center;
+ width: 100%;
+ padding: 12px;
+
+}
+
+.thvp1{
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between items */
+  justify-content: center;
+}
+
+.thvp2{
+  width: 50%;
+}
+
+#flush-headingOne,
+#flush-headingTwo,
+#flush-headingThree,
+#flush-headingFour{
+  padding: 10px;
+  width: 100%;
+  color: #000;
+  line-height: 20px;
+
+}
+
+
+#flush-heading5,
+#flush-heading6,
+#flush-heading7,
+#flush-heading8{
+  padding: 10px;
+  width: 100%;
+  color: #000;
+  line-height: 20px;
+}
+
+#thvpbody{
+  width: 350px;
+  height: auto;
+}
+
+#thvpbody p a{
+  color: #000;
+  line-height: 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#thvpbtn{
+  background: #f8f8f8;
+  border-radius: 6px;
+  gap: 10px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+
+
+#thvpbtn::after {
+  display: none;
+}
+
+.accordion-button img {
+  width: 30px;
+  height: 30px;
+}
+
+.accordion-button {
+  height: 100px; /* Equal height */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  text-align: left;
+}
+
+#thvpaccordian{
+  width: 350px;
+  height: auto;
+  margin-bottom: 5px; /* adjust as needed */
+  border: none;
+  gap: 20px;
+}
+
+.whyhd{
+  width: 100%;
+  padding: 30px;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 1px 1px 3px 3px rgba(115, 112, 112, 0.068);
+
+}
+
+.whyhd h3{
+font-size: 16px;
+font-weight: 600;
+}
+
+
+.TruhealthPackages {
+  display: flex;
+  padding: 12px;
+  gap: 10px;
+  height: 500px;
+}
+
+.TruhealthPackagesdetails {
+  width: 300px;
+  height: 300px;
+  box-shadow: 1px 1px 3px 3px rgba(115, 112, 112, 0.068);
+  border-radius: 5px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 12px;
+}
+
+.THP {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.174);
+  display: flex;
+  justify-content: start;
+  padding: 12px;
+}
+
+.TruhealthPackages1{
+  background-color: #fff;
+}
+
+.TruhealthPackages2{
+  height: 470px;
+  background-color: #fff;
+  overflow: auto;
+  padding: 2px;
+}
+
+.TruhealthPackages2::-webkit-scrollbar {
+  display: none;
+}
+
+.TruhealthPackages3{
+  background-color: #fff;
+}
+
+.THP:hover {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.174);
+  display: flex;
+  justify-content: start;
+  padding: 12px;
+  font-weight: bold;
+}
+
+.THP:hover::after {
+  margin-left: 90px;
+  content: ">";
+  color: black;
+}
+
+.thpto h3{
+  font-size: 19px;
+  font-weight: 700;
+
+}
+
+.THPfaq h3{
+  font-size: 19px;
+  font-weight: 700;
+}
+
+
+.THPTest {
+  display: flex;
+  flex-direction: column;
+  height: 185px;
+  justify-content: start;
+  gap: 30px;
+  width: 820px;
+  box-shadow: 1px 1px 3px 3px rgba(115, 112, 112, 0.068);
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.THPTest h2{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+.thpstructure {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.TruhealthPackagesprice {
+  width: 100%;
+  max-width: 350px;
+  height: 230px;
+  box-shadow: 1px 1px 3px 3px rgba(47, 255, 0, 0.088);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+  border-radius: 5px;
+  border: 1px solid rgb(21, 74, 9);
+}
+
+.TruhealthPackagesprice:hover {
+  width: 100%;
+  max-width: 350px;
+  height: 230px;
+  box-shadow: 1px 1px 3px 3px rgba(47, 255, 0, 0.088);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+  border-radius: 5px;
+  border: 1px solid rgb(21, 74, 9);
+  transform: translateY(-15px);
+  transition: all 0.3s ease-in-out;
+}
+
+.TruhealthPackagesprice p {
+  color: green;
+  font-weight: bold;
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+}
+
+.TruhealthPackagesprice h4 {
+  font-weight: bold;
+  font-family: Poppins, sans-serif;
+  font-size: 21px;
+}
+
+.TruhealthPackagesprice button {
+  width: 70%;
+  height: auto;
+  background-color: rgb(0, 191, 255);
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  display: inline-block;
+}
+
+.TruhealthPackagesprice button a {
+  text-decoration: none;
+  color: white;
+}
+
+.TruhealthPackagesdetails {
+  width: 300px;
+  height: 280px;
+  box-shadow: 1px 1px 3px 3px rgba(115, 112, 112, 0.068);
+  border-radius: 5px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 12px;
+}
+
+.thpto {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 1px 1px 3px 3px rgba(115, 112, 112, 0.068);
+}
+
+.thpto ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.THPfaq {
+  width: 820px;
+  min-height: 400px; /* Set a minimum height, but allow dynamic expansion */
+  box-shadow: 1px 1px 3px 3px rgba(115, 112, 112, 0.068);
+  padding: 12px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out; /* Smooth expansion effect */
+  overflow: hidden;
+}
+
+.whyhdtags1{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding: 12px;
+}
+
+.whyhdtags2{
+  width: 25%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.whyhdtags2 img{
+  width: 50%;
+  border-radius: 50%;
+  box-shadow: 1px 1px 3px 3px rgba(115, 112, 112, 0.068);
+}
+
+.TruhealthPackages li a {
+  text-decoration: none;
+  color: black;
+  font-family: Poppins, sans-serif !important;
+}
+
+
+.thpstructure {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+#thpstd1 {
+  border: 1px solid #b3f1ff;
+  margin-left: -520px;
+}
+/* TruHealth Vital */
+
+/* Health Conditions  */
+
+#pagebreadcrumb{
+  padding: 14px;
+  width: 100%;
+  height: 40px;
+  font-size: 14px;
+}
+.hctest {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.hctest1 {
+  width: 90%;
+  height: auto;
+  background-color: #ffffff;
+  box-shadow: 0 0 5px 0 #00000030 !important;
+  border-radius: 5px;
+  gap: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 12px;
+}
+
+.hctest2 {
+  width: 300px;
+  height: 200px;
+  border: 1px solid #008d44;
+  background-color: #ffffff;
+  box-shadow: 0 0 5px 0 #00000030 !important;
+  border-radius: 10px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+
+.hctest2 img{
+  background-color: #ffffff;
+}
+
+.hctest3{
+  background-color: #ffffff;
+}
+
+.hctest3 h6{
+  background-color: #ffffff !important;
+}
+
+.hctest3 p{
+  background-color: #ffffff;
+
+}
+
+
+.hctesttype {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  gap: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hctesttype1 {
+  width: 90%;
+  height: 240px;
+  border-radius: 10px;
+  gap: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: start;
+  margin-left: 50px;
+}
+
+.Hctesttypes {
+  width: 23%;
+  height: 240px;
+  box-shadow: 0px 0px 10px 1px #e3e2e2;
+  border-radius: 10px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#testtypebutton {
+  width: 100%;
+  height: 30px;
+  color: #0cb6e1;
+  border: 1px solid #0cb6e1;
+  border-radius: 5px;
+  font-weight: 600;
+  background-color: white;
+}
+
+#testtypebutton:hover {
+  width: 100%;
+  height: 30px;
+  color: #ffffff;
+  background-color: #0cb6e1;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+#testtypespara1 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #00984a;
+}
+
+#testtypespara3 {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.692);
+}
+
+.hctestdescription {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.hctestdescription1 {
+  width: 90%;
+  height: auto;
+  box-shadow: 1px 1px 3px 3px rgba(115, 112, 112, 0.068);
+  border-radius: 5px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 12px;
+}
+
+.hctestPrescribed h5 {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.hctestImportant h5 {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.hctestPerformed h5 {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.hctestReports h5 {
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+
+.hctestPrescribed p {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.hctestImportant p {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.hctestPerformed p {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.hctestReports p {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.hctestReports {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.HCFrequentlyAskedQuestions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.HCFrequentlyAskedQuestions1 {
+  width: 90%;
+  height: auto;
+  box-shadow: 1px 1px 3px 3px rgba(115, 112, 112, 0.068);
+  border-radius: 5px;
+  gap: 20px;
+  padding: 12px;
+}
+
+.HCFrequentlyAskedQuestions1 h5 {
+  font-weight: 700;
+}
+
+#hcaccordian{
+  border: none;
+}
+
+#hcaccordianbtn{
+  background-color: rgba(128, 128, 128, 0.086);
+  height: 70px;
+  font-weight: 700;
+
+
+}
+
+#hcaccordianbtn1{
+  background-color: rgba(164, 161, 161, 0.262);
+  height: 70px;
+  font-weight: 700;
+
+}
+
+.accordion{
+  padding: 40px;
+}
+
+
+#faqaccordian{
+  background-color: rgba(0, 128, 0, 0.607);
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 700;
+
+}
+
+#faqaccordian1{
+  background-color: rgba(85, 118, 85, 0.099);
+  border-radius: 5px;
+  font-weight: 700;
+
+}
+
+#packageaccordian{
+  background-color: #4FC3F7;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+
+#packageaccordian1{
+  background-color: #B3E5FC;
+  border-radius: 5px;
+  font-weight: 700;
+
+}
+
+
+
+/* Health Conditions  */
+
+
