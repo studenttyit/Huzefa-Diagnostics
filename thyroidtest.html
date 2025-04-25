@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Thyroid Test</title>
+</head>
+<body>
+    <nav id="brand1" class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <img
+              id="mainlogo"
+              src="main-logol.jpg"
+              class="img-fluid"
+              alt="Image 2"
+            />
+  
+            <a id="brand" class="navbar-brand" href="index.html"
+              >HUZEFA-DIAGNOSTIC</a
+            >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="ratelist.html"
+                  >RATE LIST</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="AboutUs.html">ABOUT US</a>
+              </li>
+              
+            </ul>
+            <a id="whatsapp" class="navbar-brand d-flex gap-2" href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="37"
+                height="37"
+                fill="currentColor"
+                class="bi bi-whatsapp"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="37"
+                height="37"
+                fill="currentColor"
+                class="bi bi-envelope"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"
+                />
+              </svg>
+              <p>huzefashariknakhuda@gmail.com</p>
+            </a>
+          </div>
+        </div>
+      </nav>   
+      <nav class="navbar sticky-top navbar-light bg-light">
+        <div class="container-fluid">
+          <ul type="none" class="navbar px-4 gap-5 me-auto my-2 my-lg-0" >
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Health Risks
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="HeartTest.html">Heart Tests</a></li>
+                <li><a class="dropdown-item" href="LiverTest.html">
+                  Liver Tests</a></li>
+                <li><a class="dropdown-item" href="kidneytest.html">Kidney Tests</a></li>
+                <li><a class="dropdown-item" href="thyroidtest.html">Thyroid Tests</a></li>
+                <li><a class="dropdown-item" href="bone&jointtest.html">
+                  Bone and Joint Tests</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Health Conditions
+        
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="Alcoholism.html">Alcoholism</a></li>
+                <li><a class="dropdown-item" href="ALLERGYTEST.html">
+                  Allergy</a></li>
+                <li><a class="dropdown-item" href="Anemia.html">
+                  Anemia</a></li>
+                <li><a class="dropdown-item" href="Arthritis.html">Arthritis</a></li>
+                <li><a class="dropdown-item" href="Cancer.html">
+                  Cancer</a></li>
+                <li><a class="dropdown-item" href="Diabetes.html">
+                  Diabetes</a></li>
+                <li><a class="dropdown-item" href="Fever.html">Fever</a></li>
+                <li><a class="dropdown-item" href="Hepatitis.html">Hepatitis</a></li>
+                <li><a class="dropdown-item" href="Hormones.html">
+                  Hormones
+                  </a></li>
+                <li><a class="dropdown-item" href="Hypertension.html">Hypertension</a></li>
+                <li><a class="dropdown-item" href="Obesity.html">Obesity</a></li>
+                <li><a class="dropdown-item" href="Pregnancy.html">
+                  Pregnancy
+                  </a></li>
+                <li><a class="dropdown-item" href="STD.html">STD (Sexually Transmitted Diseases)</a></li>
+                <li><a class="dropdown-item" href="Vitamins.html">Vitamins</a></li>
+                 </ul>
+            </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              
+      Blood Tests
+      
+      
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="fit.html">Food Intolerance Test</a></li>
+              <li><a class="dropdown-item" href="cbc.html">CBC Test</a></li>
+              <li><a class="dropdown-item" href="lpt.html">Lipid Profile Test</a></li>
+              <li><a class="dropdown-item" href="allergy.html">Allergy Panel Test</a></li>
+              <li><a class="dropdown-item" href="vitD.html">Vitamin D Blood Test</a></li>
+              <li><a class="dropdown-item" href="thyroid.html">Thyroid Test
+              </a></li>
+              <li><a class="dropdown-item" href="hba1c.html">HbA1C Test or Glycated Haemoglobin Test
+              </a></li>
+              <li><a class="dropdown-item" href="Thrombophilia.html">Thrombophilia Profile Test</a></li>
+             </ul>
+          </li>
+      
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              
+              Truhealth Packages
+      
+      
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="#"><b>Truhealth Packages</b></a></li>
+              <li><a class="dropdown-item" href="TruHealthVital.html">TruHealth Vital
+              </a></li>
+              <li><a class="dropdown-item" href="TruHealthVitalPlus.html">Truhealth Vital Plus
+              </a></li>
+              <li><a class="dropdown-item" href="TruhealthPro-ActiveMale.html">Truhealth Active Male</a></li>
+              <li><a class="dropdown-item" href="TruhealthActiveFemale.html">Truhealth Active Female</a></li>
+              <li><a class="dropdown-item" href="TruhealthPro-ActiveMale.html">Truhealth Pro-Active Male
+              </a></li>
+              <li><a class="dropdown-item" href="TruhealthPro-Active Female.html">Truhealth Pro-Active Female
+              </a></li>
+              <li><a class="dropdown-item" href="TruHealthExpertMale.html">TruHealth Expert Male</a></li>
+              <li><a class="dropdown-item" href="TruHealthExpertFemale.html">TruHealth Expert Female</a></li>
+             </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              
+              Specialty
+      
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="#"><b>Specialty</b></a></li>
+              <li><a class="dropdown-item" href="#">Know Our Experts</a></li>
+             
+             </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-house-add-fill" viewBox="0 0 16 16">
+              <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 1 1-1 0v-1h-1a.5.5 0 1 1 0-1h1v-1a.5.5 0 0 1 1 0"/>
+              <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z"/>
+              <path d="m8 3.293 4.712 4.712A4.5 4.5 0 0 0 8.758 15H3.5A1.5 1.5 0 0 1 2 13.5V9.293z"/>
+            </svg> Home Visit</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Upload</a>
+          </li>
+        </ul>   
+        </div>
+      </nav>
+          <nav id="pagebreadcrumb" aria-label="breadcrumb">
+            <ol  class="breadcrumb  mx-4">
+              <li id="BreadcrumbHome" class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">
+                Health Risks
+              </li>
+              <li class="breadcrumb-item active" aria-current="page">
+                Thyroid Tests
+              </li>
+            </ol>
+          </nav>
+      
+
+          <div class="thyroidtest">
+            <div class="thyroidtest1">
+            <div class="thyroidtest2">
+                <img src="liver.png" alt="">
+            </div>
+            <div class="livertest3">
+                <h6><b>Thyroid Tests</b></h6>
+
+                <p>The thyroid, a small gland located in the lower part of your neck, is vital because it controls many functions in your body. It is this gland that controls body temperature, metabolism, nervous system and the rate of heartbeat. <b> Thyroid tests </b> are done to check if your thyroid is functioning well and if you have issues like hypothyroidism and hyperthyroidism.</p>
+
+                <h6>Thyroid blood tests include:</h6>
+
+                <ul type="square">
+                    <li>TSH - Done to measure the TSH levels and check for hormonal imbalance</li> <br>
+                    <li>T4 - Done to measure free T4 (FT4 or FTI) and rule out hypothyroidism and hyperthyroidism</li>  <br>
+                    <li>T3 - Done to confirm the diagnosis of hyperthyroidism and determine its severity</li> <br>
+                    <li>Thyroid antibody test - done to measure the level of thyroid antibodies to check if your immune system has mistakenly attacked your thyroid gland</li> 
+                </ul>
+
+
+                <h6>Thyroid imaging tests include:</h6>
+
+                <ul type="square">
+                    <li>CT scan</li> <br>
+                    <li>Ultrasound and</li>  <br>
+                    <li>Nuclear medicine tests like a thyroid scan</li> <br>
+                </ul>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="thyroidtesttype">
+            <div class="thyroidtesttype1">
+                <div class="ThyroidTesttypes">
+                    <p id="testtypespara1">TSH (Ultrasensitive)/ TSH-U Test</p>
+                    <p>₹ 400</p>
+                    <p id="testtypespara3">Includes : 1 Parameters</p>
+                    <button id="testtypebutton">Add to Cart</button>
+                </div>
+                <div class="ThyroidTesttypes">
+                    <p id="testtypespara1">Thyroid Panel-3 (Reflex)</p>
+                    <p>₹ 420</p>
+                    <p id="testtypespara3">Includes : 1 Parameters</p>
+                    
+                    <button id="testtypebutton">Add to Cart</button>
+                </div>
+                <div class="ThyroidTesttypes">
+                    <p id="testtypespara1">Thyroid Panel-4</p>
+                    <p>₹ 504.55</p>
+                    <p id="testtypespara3">Includes : 1 Parameters</p>
+                    <button id="testtypebutton">Add to Cart</button>
+                </div>
+                <div class="ThyroidTesttypes">
+                    <p id="testtypespara1">Thyroid Panel-1 Test (T3/T4/TSH)</p>
+                    <p>₹ 600</p>
+                    <p id="testtypespara3">Includes : 3 Parameters</p>
+                    <button id="testtypebutton">Add to Cart</button>
+                </div>  
+            </div>
+
+            <div class="thyroidtesttype1">
+                <div class="ThyroidTesttypes">
+                    <p id="testtypespara1">Thyroid Panel Test - 2 ( FT3, FT4, TSH)</p>
+                    <p>₹ 820</p>
+                    <p id="testtypespara3">Includes : 3 Parameters</p>
+                    <button id="testtypebutton">Add to Cart</button>
+                </div>
+                <div class="ThyroidTesttypes">
+                    <p id="testtypespara1">Thyroid Comprehensive Profile 2 Test</p>
+                    <p>₹ 1680</p>
+                    <p id="testtypespara3">Includes : 1 Parameters</p>
+                    <button id="testtypebutton">Add to Cart</button>
+                </div>
+                <div class="ThyroidTesttypes">
+                    <p id="testtypespara1">Thyroid Antibodies Panel (TPOAb and TgAb)</p>
+                    <p>₹ 2400</p>
+                    <p id="testtypespara3">Includes : 2 Parameters</p>
+                    <button id="testtypebutton">Add to Cart</button>
+                </div>
+                <div class="ThyroidTesttypes">
+                    <p id="testtypespara1">Thyroid Comprehensive Profile 1 Test</p>
+                    <p>₹ 2850</p>
+                    <p id="testtypespara3">Includes : 1 Parameters</p>
+                    <button id="testtypebutton">Add to Cart</button>
+                </div>  
+            </div>
+
+            <div class="thyroidtesttype1">
+                <div class="ThyroidTesttypes">
+                    <p id="testtypespara1">Parathyroid Panel Test</p>
+                    <p>₹ 2965</p>
+                    <p id="testtypespara3">Includes : 1 Parameters</p>
+                    <button id="testtypebutton">Add to Cart</button>
+                </div>
+                <div class="ThyroidTesttypes">
+                    <p id="testtypespara1">Thyroid Marker Profile</p>
+                    <p>₹ 4230</p>
+                    <p id="testtypespara3">Includes : 1 Parameters</p>
+                    <button id="testtypebutton">Add to Cart</button>
+                </div>
+                <div class="ThyroidTesttypes">
+                    <p id="testtypespara1">Atherosclerosis Profile 1 Test</p>
+                    <p>₹ 5245</p>
+                    <p id="testtypespara3">Includes : 9 Parameters</p>
+                    <button id="testtypebutton">Add to Cart</button>
+                </div>
+                <div class="ThyroidTesttypes">
+                    <p id="testtypespara1">TruHeart Platinum</p>
+                    <p>₹ 5800</p>
+                    <p id="testtypespara3">Includes : 11 Parameters</p>
+                    <button id="testtypebutton">Add to Cart</button>
+                </div>  
+            </div>
+        </div>
+
+
+        <div class="thyroidtestdescription">
+          <div class="thyroidtestdescription1">
+          <div class="thyroidtestPrescribed">
+            <h5>When is a Thyroid Test Prescribed?  </h5>
+            <p>Thyroid tests are prescribed if you observe one or more of the following symptoms:</p>
+           
+            <ul type="square">
+            <li>A bump in the neck</li>
+            <li>Notable weight loss or weight gain even if your lifestyle habits remain the same 
+
+            </li>
+            <li>Redness, dryness, itchiness and irritation in the skin 
+
+            </li>
+            <li>Brittle hair 
+
+            </li>
+            <li>Abdominal painSwelling in the lower neck 
+
+            </li>
+            <li>Puffy-looking face 
+
+            </li>
+            <li>Changes in mood, depression, anxiety and nervousness 
+
+            </li>
+            <li>Difficulty in falling asleep 
+
+            </li>
+            <li>Fatigue, tired, weak and worn out feeling 
+
+            </li>
+            <li>Feeling too hot or too cold 
+
+            </li>
+            <li>Feeling uncomfortable throughout the day 
+
+            </li>
+            <li>Missing periods but not pregnant 
+
+            </li>
+          </ul>
+
+          <p>There are a few people who are at risk of thyroid problems. They are recommended to take thyroid tests. The risk group includes</p>
+
+          <ul type="square">
+            <li>Thyroid problems can affect both men and women, but the risk is high if you are a female 
+
+            </li>
+            <li>People who are in the age group of 60 years and above 
+
+            </li>
+            <li>Individuals with a family history of thyroid problems 
+
+            </li>
+            <li>Men, women and children with low-iodine levels or consume low iodine 
+
+            </li>
+            <li>People who have autoimmune diseases like lupus wherein their immune system attacks body organs 
+
+            </li>
+            <li>Persons who are on medications that contain iodine 
+
+            </li>
+            <li>Females who are pregnant or who have recently delivered 
+
+            </li>
+          </ul>
+
+          <p>The symptoms could be mild, moderate or severe. They should not be ignored, even if they are mild. You need not worry about spending several hours on testing because you get done your thyroid tests at home.</p>
+          </div>
+
+          <div class="thyroidtestImportant">
+            <h5>Why is Thyroid Testing Important?</h5>
+            <p>Thyroid health is crucial for good health. It is the thyroid hormones that regulate your body's metabolism. Metabolism is the process by which the food you eat is converted into energy. It has a huge influence on your health, as it regulates body temperature, brain functions and heart rate. When there is a spike or fall in the hormone levels, the body's functioning is affected. Untreated thyroid can cause a lot of health risks like 
+
+            </p>
+            <ul type="square">
+            <li>Obesity 
+
+            </li>
+            <li>Weight loss 
+
+
+
+            </li>
+            <li>Increased blood pressure 
+
+
+            </li>
+            <li>Infertility 
+            </li>
+            <li>Anxiety 
+            </li>
+            <li>Depression</li>
+          </ul>
+          <p>Hypothyroidism or underactive thyroid can increase the risk of getting cardiovascular diseases, because low levels of thyroid hormones can increase the level of cholesterol in your blood. It can lead to complications in pregnancy like miscarriage, stillbirth, birth defects in the baby, premature birth, anemia in the mother and low-birth weight of the baby. It can also cause goitre, a lump in the throat.  
+
+          </p>
+          <p>Untreated hyperthyroidism or overactive thyroid can increase the risk of stroke, heart failure and blood clots. It can cause osteoporosis or the weakening of bones. It can also cause fertility issues.  
+
+          </p>
+          <p>As thyroid problems are the main cause of several health risks, thyroid testing is important and should never be ignored. You can book your thyroid tests online and save your precious time and money.  
+
+          </p>
+          </div>
+
+          <div class="thyroidtestPerformed">
+            <h5>How is a Thyroid Test Done? 
+            </h5>
+            <p>An elastic band will be tied tightly on your upper arm to make your veins fill with more blood. A technician will insert a needle and draw blood from your arms after locating an appropriate vein. The needle will be removed after sufficient blood is collected. A small bandage will be placed on the wound. It is a non-invasive procedure, and you can carry on with your normal activities right away.  
+
+
+            </p>
+          </div>
+
+          <div class="thyroidtestReports">
+            <h5>Time Required For Test Report and Next StepsHow Long Does It Take To Get The Test Report??  
+ 
+            </h5>
+            <p>You usually get the report on the same day. The result of the TSH test gives the best insight about the functioning of your thyroid glands. The results of TSH combined with the T3 and T4 tests will give a better understanding of the thyroid function. If your results are not normal, your doctor will prescribe the appropriate medications. If the results are normal but your doctor has doubts, he may recommend thyroid imaging tests to find how your thyroid is working.  
+  
+
+            </p>
+            <p>Symptoms of thyroid issues are often confused with the impacts of poor diet and lifestyle habits. It is better to have a thyroid test to avoid health risks related to thyroid. Book thyroid tests at home as soon as possible.  
+
+
+            </p>
+           
+           
+          </div>
+          </div>
+        </div>
+
+
+        <div class="FrequentlyAskedQuestions">
+          <div class="FrequentlyAskedQuestions1">
+            <h5>Frequently Asked Questions</h5>
+
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                  <button id="hcaccordianbtn" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                    How do I know if I have thyroid problems?                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                  <div class="accordion-body">
+                    If you experience sudden weight loss or gain, palpitations, tremors, anxiety and nervousness, or if you notice swelling in the throat, you may have thyroid problems.                    </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                  <button id="hcaccordianbtn1" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                    What are the early signs of thyroid issues? 
+                </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                  <div class="accordion-body">
+                    Fatigue, constipation, puffy face, weakness, increase or decrease in heart rate and weight loss or weight gain are some of the early signs of thyroid issues.  
+
+                </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                  <button id="hcaccordianbtn" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    What is the best time to check your thyroid hormones?
+                </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                  <div class="accordion-body">
+                    Mornings are the best time to check thyroid hormones. A study showed that the levels dropped more in the afternoon test than the morning test for both medicated and unmedicated patients.
+
+                </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-heading4">
+                  <button id="hcaccordianbtn1" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse4" aria-expanded="false" aria-controls="panelsStayOpen-collapse4">
+                    Is a Thyroid Test done on an empty stomach?
+                </button>
+                </h2>
+                <div id="panelsStayOpen-collapse4" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading4">
+                  <div class="accordion-body">
+                    <p>Fasting is not necessary for a thyroid test. However, you may be advised to fast only if your doctor has recommended other blood tests along with the thyroid test.
+
+ 
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-heading5">
+                  <button id="hcaccordianbtn" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse5" aria-expanded="false" aria-controls="panelsStayOpen-collapse5">
+                    What should you not do before a Thyroid Test?
+                </button>
+                </h2>
+                <div id="panelsStayOpen-collapse5" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading5">
+                  <div class="accordion-body">
+                    There are no special preparations needed before getting a thyroid test done. However, a few medications like chemotherapy drugs, iodine, lithium, etc., can affect the results. So, you should not forget to tell your doctor about the medications you are taking.  
+
+                </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-heading6">
+                  <button id="hcaccordianbtn1" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse6" aria-expanded="false" aria-controls="panelsStayOpen-collapse6">
+                    How much does it cost to test for thyroid hormones?
+                </button>
+                </h2>
+                <div id="panelsStayOpen-collapse6" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading6">
+                  <div class="accordion-body">
+                    <p>Several health conditions can lead to abnormal results in a liver test. These include:Thyroid tests cost may vary from one place to another. Thyroid tests price may be around Rs 500 to Rs 1400 in India.  
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-heading7">
+                  <button id="hcaccordianbtn" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse7" aria-expanded="false" aria-controls="panelsStayOpen-collapse7">
+                    Can you test yourself for thyroid at home?
+                </button>
+                </h2>
+                <div id="panelsStayOpen-collapse7" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading7">
+                  <div class="accordion-body">
+                    <p>Sample collection for thyroid tests can be done at home by a lab technician by booking a home visit.
+
+ 
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ppt">
+          <h5>About HUZEFA-DIAGNOSTIC</h5>
+          <hr>
+          <p>Book a <strong> blood test </strong> or <strong> expert health check-up packages </strong> online with HUZEFA-DIAGNOSTIC - one of the leading diagnostic service provider in India. Get quality reports trusted by leading doctors and hospitals from our NABL and CAP certified labs of HUZEFA-DIAGNOSTIC.</p>
+
+          <p>One can either visit our nearest HUZEFA-DIAGNOSTIC lab to give your blood sample or opt for blood collection at home service, so that you can get all the benefits of diagnostic centre and pathology labs in the comfort of your home.</p>
+
+          <p>With a certified team of <strong> 200 senior pathologists </strong> and over <strong> 2000 technicians </strong> we, provide diagnostic services ranging from routine to semi speciality tests like oncology, neurology, gynaecology, nephrology to complete health check-up packages for Men, Women, Senior Citizens, Youth & Corporates.</p>
+
+          <p><a href="#">Read More About Us</a></p>
+        </div>
+
+        <div class="ppppppt">
+          <div class="ppt1">
+          <h5>Popular Pathology Test</h5>
+          <hr>
+          <div class="pptitems">
+          <p>CBC Test  </p>|
+
+          <P>  Liver Function Test</P> | <P>CRP Test</P> |
+           <P> HbA1c Test              </P>   |
+           <P> ESR Test                </P> |
+           <P> Renal Function Test     </P>         |
+           <P> SGOT Test               </P>        |
+           <P> APTT Test               </P>   |
+           <P> Electrolytes Test       </P>      |
+           <P> Lipid Profile Test      </P>           |
+           <P> Widal Test              </P>      |
+           <P> Thyroid Test            </P>       |
+           <P> Trop i Test             </P>   |
+           <P> SGPT Test               </P> |
+           <P> Uric Acid Test          </P>       |
+           <P> Sugar Test              </P>            |
+           <P> Quadruple Marker Test   </P>        |
+           <P> Amylase Test            </P>       |
+           <P> Pap Smear Test          </P>     |
+           <P> Food Intolerance Test   </P>                   |
+           <P> Double Marker Test      </P>                   |
+           <P> Urine Culture Test      </P>                   |
+           <P> Beta HCG Test           </P>   |
+           <P> FBS Test                </P> |
+           <P> Bone Marrow Test        </P>      |
+           <P> Pregnancy Test          </P>  |
+           <P> Malaria Test            </P>   |
+           <P> AMH Test                </P>    |
+           <P> Creatinine Test        </P>                         |
+           <P> Prolactin Test         </P>          |
+           <P> ANA Test               </P>               |
+           <P> RBS Test               </P>               |
+           <P> Anti CCP Test          </P>            |
+           <P> Testesterone Test      </P>       |
+           <P> Cholesterol Test       </P>        |
+           <P> C Peptide Test         </P>           |
+           <P> HIV Test               </P>          |
+           <P> Dengue Test            </P>            |
+           <P> D Dimer Test           </P>            |
+           <P> Haemoglobin Test       </P>                   |
+           <P> HCV Test               </P>             |
+           <P> Ferritin Test          </P>           |
+           <P> Bilirubin Test         </P>       |
+           <P> Prothrombin Time Test  </P>          |
+           <P> Vitamin D Test         </P>              |
+           <P> Homocysteine Test      </P>            |
+           <P> Viral Marker Test      </P>            |
+           <P> Vitamin B12 Test       </P>           |
+           <P> Typhidot Test          </P>          |
+           <P> Calcium Test           </P>       |
+           <P> Iron Studies Test      </P>          |
+           <P> NT Probnp Test         </P>              |
+           <P> Hepatitis B Test       </P>         |
+           <P> Covid 19 Test</P>
+
+          </div>
+
+      <br>
+
+          <h5>Popular Pathology Test Categories</h5>
+          <hr>
+
+          <div class="pptitems">
+
+          <p>Full Body Check Up </p>           |
+          <p>  Kidney Test        </p>       |
+          <p>  Bone and Joint     </p>             |
+          <p>  Anemia Test        </p>        |
+          <p>  Allergy Test       </p>        |
+          <p>  Heart Test         </p>      |
+          <p>  Thyroid Test       </p>      |
+          <p>  Hypertension Test  </p>        |
+          <p>  Blood Alcohol Tests</p>             |
+          <p>  Hormones Test      </p>             |
+          <p>  Arthritis Test     </p>         |
+          <p>  Cancer Test        </p>          |
+          <p>  Diabetes Test      </p>        |
+          <p>  Fever Test         </p>       |
+          <p>  Pregnancy Test     </p>            |
+          <p>  STD Test           </p>          |
+          <p>  Vitamins Test      </p>         |
+          <p>  Liver Test         </p>           |
+          <p>  Hepatitis Test     </p>            |
+          <p>  Obesity Test</p>
+          </div>
+          </div>
+
+      </div>
+
+      
+        <div class="indexlabels">
+
+          <div class="indexlabels1">
+          <div class="yol">
+            <img src="yol.svg" alt="">
+            <p>40 years of legacy</p>
+          </div>
+          <div class="yol">
+            <img src="ncal.svg" alt="">
+            <p>NABL & CAP Accredited labs</p>
+          </div>
+          <div class="yol">
+            <img src="srwta.svg" alt="">
+            <p>Smart Report with Trend Analysis</p>
+          </div>
+          <div class="yol">
+            <img src="rtrust.svg" alt="">
+            <p>Reports trusted by leading doctors and hospitals</p>
+          </div>
+          </div>
+        </div>
+       
+
+         <div class="pagesfooter">
+          <div class="pagesfooter5">
+          <div class="pagesfooter1">
+            <div class="pagesfooter2">
+              <h6>Company</h6>
+              <div class="pagesfooter4">
+              <div class="pagesfooter3">
+                <p><a href="#">About Us</a></p>
+                <p><a href="#">Investors</a></p>
+                <p><a href="#">Partners</a></p>
+              </div>
+              <div class="pagesfooter3">
+                <p><a href="#">Corporates</a></p>
+                <p><a href="#">CSR</a></p>
+                <p><a href="#">Media Center</a></p>
+                <p><a href="#">Careers</a></p>
+              </div>
+              </div>
+            </div>
+
+            <div class="pagesfooter2">
+              <h6>Patients
+              </h6>
+              <div class="pagesfooter4">
+
+              <div class="pagesfooter3">
+                <p><a href="#">Centre Locator</a></p>
+                <p><a href="#">Covid 19 Test Center</a></p>
+                <p><a href="#">Book Home Visit</a></p>
+                <p><a href="#">Truhealth Packages</a></p>
+              </div>
+              <div class="pagesfooter3">
+                <p><a href="#">Truhealth Blogs</a></p>
+                <p><a href="#">Mobile App</a></p>
+                <p><a href="#">Labs</a></p>
+                <p><a href="#">Testimonials</a></p>
+              </div>
+              </div>
+            </div>
+
+            <div class="pagesfooter2">
+              <h6>Services
+
+              </h6>
+              <div class="pagesfooter4">
+
+              <div class="pagesfooter3">
+                <p><a href="#">Pathology Testing Services</a></p>
+                <p><a href="#">Corporate Wellness</a></p>
+                <p><a href="#">Lab In Hospitals</a></p>
+                <p><a href="#">Clinical Research Services</a></p>
+              </div>
+            </div>
+          </div>
+
+            <div class="pagesfooter2">
+              <h6>Doctors</h6>
+              <div class="pagesfooter3">
+                <p><a href="#">Metrospheres</a></p>
+              </div>
+            </div>
+            
+
+            <div class="pagesfooter2">
+              <h6>Contact Us</h6>
+              <div class="pagesfooter4">
+
+              <div class="pagesfooter3">
+                <p><a href="#">Contact Us</a></p>
+                <p><a href="#">Feedback and Complaints</a></p>
+                <p><a href="#">Complaints and Grievance Redressal Policy</a></p>
+                <p><a href="#">Sitemap</a></p>
+                <p><a href="#">NPS</a></p>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+         </div>
+
+         <div class="pagesnewfooter">
+          <div class="pagesnewfooter1">
+            <div class="pagesnewfooter2">
+              <div class="pagesnewfooter3">
+                <h6>Download App</h6>
+                <div class="pagesnewfooter4">
+                  <div id="appimages" class="pagesnewfooter5">
+                    <img src="google-play-badge.svg" alt="">
+                  </div>
+                  <div id="appimages" class="pagesnewfooter5">
+                    <img src="app-store-badge.svg" alt="">
+                  </div>
+                </div>
+                <p>View your reports and upcoming health checkups at one place.</p>
+              </div>
+
+              <div class="pagesnewfooter3">
+                <h6>Follow Us</h6>
+                <div class="pagesnewfooter4">
+                  <div id="linkimages" class="pagesnewfooter5">
+                    <img src="facebook.svg" alt="">
+                  </div>
+                  <div id="linkimages" class="pagesnewfooter5">
+                    <img src="twitter-x.svg" alt="">
+                  </div>
+                  <div id="linkimages" class="pagesnewfooter5">
+                    <img src="instagram.svg" alt="">
+                  </div>
+                  <div id="linkimages" class="pagesnewfooter5">
+                    <img src="linkedin.svg" alt="">
+                  </div>
+                  <div id="linkimages" class="pagesnewfooter5">
+                    <img src="youtube.svg" alt="">
+                  </div>
+                </div>
+              </div>
+
+              <div class="pagesnewfooter3">
+                <h6>Subscribe Our Newsletter</h6>
+                <div class="pagesnewfooter4">
+                  <div id="emailfooter" class="pagesnewfooter5">
+                    <input type="email" name="" id="footeremail" placeholder="Enter your email.">
+                    <button type="submit" id="footersubmitbutton">Submit</button>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+         </div>
+
+         <nav   class="navbar navbar-expand-lg navbar-light bg-light">
+          <div id="BottomNavbar"  class="container-fluid">
+            
+            <div id="bottomnavbar" class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <p class="nav-link active" aria-current="page" href="#">Do you have any queries?</p>
+                </li>
+                <li class="nav-item">
+                  <a id="btnno" class="nav-link active" aria-current="page" href="#"><button>Get a call back now!</button></a>
+                </li>
+                <li class="nav-item">
+                  <p class="nav-link" href="#">or Call us now at </p>
+                </li>
+                <li class="nav-item">
+                  <a id="btnno1" class="nav-link" href="#"><button>776-882-4532</button></a>
+                </li>
+                
+              </ul>
+            </div>
+            <div class="ringimage">
+              <img src="MainLogo.png" alt="">
+            </div>
+          </div>
+        </nav>
+        <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"
+      ></script>
+
+      <script src="script.js"></script>
+
+  
+</body>
+</html>
